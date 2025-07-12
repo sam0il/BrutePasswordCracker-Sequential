@@ -103,7 +103,7 @@ public class BruteForceEngine {
     }
 
     private int findMaskIndex(int position) {
-        for(int i = 0; i < this.maskIndices.length; ++i) {
+        for(int i = 0; i < this.maskIndices.length; i++) {
             if (this.maskIndices[i] == position) {
                 return i;
             }
