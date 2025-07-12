@@ -66,7 +66,9 @@ public class BruteForceEngine {
             if (remainingLength == 0) {
                 String password = new String(currentPassword);
                 ++this.attempts;
-                System.out.println("Attempt: [" + this.attempts + "] Trying: " + password);
+                if (attempts % 1000 == 0) {
+                    System.out.println("Attempt: [" + this.attempts + "] Trying: " + password);
+                }
                 return this.validator.validate(password) ? password : null;
             } else {
                 int[] var4 = this.maskIndices;
