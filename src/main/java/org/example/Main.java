@@ -36,6 +36,8 @@ public class Main {
             String charSet = scanner.nextLine().trim();
             if (charSet.isEmpty()) {
                 charSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+                //"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                //"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:,.<>?"
                 System.out.println("Using default character set: " + charSet);
             }
 
