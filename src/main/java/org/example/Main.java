@@ -7,7 +7,7 @@ public class Main {
     // to your path on the passwords file located in resources
     // get the full path!
     // And you have hashes stored in tests.txt which are inside the Passwords.txt
-    private static final String dictionaryPath = "C:\\Users\\samoi\\IdeaProjects\\BrutePasswordCrackerSequential\\src\\main\\resources\\tests";
+    private static final String dictionaryPath = "C:\\Users\\samoi\\IdeaProjects\\BrutePasswordCrackerSequential\\src\\main\\resources\\Passwords";
     public static String crackedPassword;
     public static String mask = "";
     private static String maskIndicesInput;
